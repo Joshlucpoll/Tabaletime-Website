@@ -9,7 +9,7 @@ body {
 .navbar {
   padding: 20px;
   backdrop-filter: blur(15px) saturate(200%);
-  border-bottom: 0.5px solid rgba(30, 30, 30, 0.1);
+  border-bottom: 0.5px solid rgba(151, 151, 151, 0.3);
 }
 
 .nav-container {
@@ -74,11 +74,10 @@ body {
 
 .phone-image {
   max-width: 90vw;
-  /* height: 80vh; */
+  height: 80vh;
 }
 
 .separator {
-  /* height: 20rem; */
   background-color: #262e2c;
   box-shadow: inset 0px 5px 20px 0px rgba(0,0,0,0.75);
   
@@ -95,17 +94,22 @@ body {
   transition: transform ease 100ms;
 }
 
-.feature:hover {
-  transform: scale(1.05);
-}
-
 .feature > .container {
   height: 100%;
   padding: 1rem;
   background-color: #181A1B;
   border-radius: 1rem;
+  transition: box-shadow ease 100ms;
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
+
+.feature:hover {
+  transform: scale(1.05);
+}
+.feature:hover > .container {
+  box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+}
+
 
 .bi {
   vertical-align: -.125em;
