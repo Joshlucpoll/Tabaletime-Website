@@ -4,6 +4,7 @@ body {
   font-size: 30px;
   background-color: #181A1B;
   color: white;
+  overflow-x: hidden;
 }
 
 .navbar {
