@@ -24,6 +24,10 @@ body {
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   padding: 20px;
   backdrop-filter: blur(15px) saturate(200%);
