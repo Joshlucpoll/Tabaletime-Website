@@ -88,9 +88,27 @@ body {
   opacity: 0.5;
 }
 
+.download-buttons {
+  padding: 0 24px;
+  width: fit-content;
+}
+
+.download-button {
+  margin-bottom: 12px;
+}
+
+span {
+  white-space: nowrap;
+}
+
+.web-app-img {
+  height: 36px;
+  width: 36px;
+}
+
 .phone-image {
   max-width: 90vw;
-  height: 80vh;
+  max-height: 80vh;
 }
 
 .separator {
