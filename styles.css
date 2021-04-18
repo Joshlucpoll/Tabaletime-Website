@@ -528,6 +528,15 @@ textarea.input100 {
   opacity: 1;
 }
 
+.ios-container {
+  margin-top: 10rem;
+  max-width: 1200px;
+}
+
+.iphone {
+  max-height: 60vh;
+}
+
 .credit {
   background-color: #181A1B;
   color: rgba(256, 256, 256, 0.4);
