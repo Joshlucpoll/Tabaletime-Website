@@ -11,7 +11,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="./styles.css" rel="stylesheet" />
   <title>Tabletime</title>
 </head>
@@ -52,7 +52,8 @@
               </div>
               <div class="row my-3 download-buttons">
                 <div class="col my-1">
-                  <button class="download-button btn btn-outline-light btn-icon-text d-flex justify-content-center align-items-center">
+                  <button
+                    class="download-button btn btn-outline-light btn-icon-text d-flex justify-content-center align-items-center">
                     <img class="me-2" src="https://img.icons8.com/fluent/36/000000/android-os.png" />
                     <span class="d-inline-block text-left">
                       <small class="font-weight-light d-block">Get it on</small>
@@ -61,8 +62,10 @@
                   </button>
                 </div>
                 <div class="col my-1">
-                  <button class="download-button btn btn-outline-light btn-icon-text d-flex justify-content-center align-items-center">
-                    <img class="me-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzYiIGhlaWdodD0iMzYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2IzYjNiMyI+PHBhdGggZD0iTTE1My4xNzQwNiwxMTkuNTRjLTMuNzA4NzUsOC4yMzcxOSAtNS40OTU5NCwxMS45MTkwNiAtMTAuMjY2MjUsMTkuMTg4NzVjLTYuNjc4NDQsMTAuMTU4NzUgLTE2LjA5ODEzLDIyLjg0Mzc1IC0yNy43MzUsMjIuOTI0MzhjLTEwLjM2MDMxLDAuMDk0MDYgLTEzLjAzNDM4LC02Ljc1OTA2IC0yNy4xMDM0NCwtNi42MzgxM2MtMTQuMDU1NjMsMC4wNjcxOSAtMTYuOTg1LDYuNzcyNSAtMjcuMzU4NzUsNi42NjVjLTExLjY1MDMxLC0wLjEwNzUgLTIwLjU1OTM4LC0xMS41MjkzNyAtMjcuMjM3ODEsLTIxLjY3NDY5Yy0xOC42NzgxMywtMjguNDQ3MTkgLTIwLjY1MzQ0LC02MS43OTkwNiAtOS4xMTA2MywtNzkuNTM2NTZjOC4xNywtMTIuNTc3NSAyMS4wODM0NCwtMTkuOTY4MTIgMzMuMjE3NSwtMTkuOTY4MTJjMTIuMzYyNSwwIDIwLjEyOTM4LDYuNzg1OTQgMzAuMzQxODgsNi43ODU5NGM5LjkxNjg3LDAgMTUuOTUwMzEsLTYuNzk5MzggMzAuMjQ3ODEsLTYuNzk5MzhjMTAuODAzNzUsMCAyMi4yMjU2Miw1Ljg4NTYzIDMwLjM5NTYyLDE2LjA0NDM4Yy0yNi43MTM3NSwxNC42NDY4NyAtMjIuMzczNDQsNTIuNzk1OTQgNC42MDkwNiw2My4wMDg0NHpNMTA3LjMxMTg4LDI5LjEzMjVjNS4yMDAzMSwtNi42Nzg0NCA5LjE1MDk0LC0xNi4wOTgxMiA3LjcxMzEyLC0yNS42OTI1Yy04LjQ3OTA2LDAuNTc3ODEgLTE4LjM5NTk0LDUuOTkzMTMgLTI0LjE4NzUsMTMuMDA3NWMtNS4yNTQwNiw2LjM5NjI1IC05LjYwNzgxLDE1Ljg4MzEzIC03LjkxNDY5LDI1LjA2MDk0YzkuMjU4NDQsMC4yOTU2MyAxOC44MzkzNywtNS4yMjcxOSAyNC4zODkwNiwtMTIuMzc1OTR6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" />
+                  <button
+                    class="download-button btn btn-outline-light btn-icon-text d-flex justify-content-center align-items-center">
+                    <img class="me-2"
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzYiIGhlaWdodD0iMzYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2IzYjNiMyI+PHBhdGggZD0iTTE1My4xNzQwNiwxMTkuNTRjLTMuNzA4NzUsOC4yMzcxOSAtNS40OTU5NCwxMS45MTkwNiAtMTAuMjY2MjUsMTkuMTg4NzVjLTYuNjc4NDQsMTAuMTU4NzUgLTE2LjA5ODEzLDIyLjg0Mzc1IC0yNy43MzUsMjIuOTI0MzhjLTEwLjM2MDMxLDAuMDk0MDYgLTEzLjAzNDM4LC02Ljc1OTA2IC0yNy4xMDM0NCwtNi42MzgxM2MtMTQuMDU1NjMsMC4wNjcxOSAtMTYuOTg1LDYuNzcyNSAtMjcuMzU4NzUsNi42NjVjLTExLjY1MDMxLC0wLjEwNzUgLTIwLjU1OTM4LC0xMS41MjkzNyAtMjcuMjM3ODEsLTIxLjY3NDY5Yy0xOC42NzgxMywtMjguNDQ3MTkgLTIwLjY1MzQ0LC02MS43OTkwNiAtOS4xMTA2MywtNzkuNTM2NTZjOC4xNywtMTIuNTc3NSAyMS4wODM0NCwtMTkuOTY4MTIgMzMuMjE3NSwtMTkuOTY4MTJjMTIuMzYyNSwwIDIwLjEyOTM4LDYuNzg1OTQgMzAuMzQxODgsNi43ODU5NGM5LjkxNjg3LDAgMTUuOTUwMzEsLTYuNzk5MzggMzAuMjQ3ODEsLTYuNzk5MzhjMTAuODAzNzUsMCAyMi4yMjU2Miw1Ljg4NTYzIDMwLjM5NTYyLDE2LjA0NDM4Yy0yNi43MTM3NSwxNC42NDY4NyAtMjIuMzczNDQsNTIuNzk1OTQgNC42MDkwNiw2My4wMDg0NHpNMTA3LjMxMTg4LDI5LjEzMjVjNS4yMDAzMSwtNi42Nzg0NCA5LjE1MDk0LC0xNi4wOTgxMiA3LjcxMzEyLC0yNS42OTI1Yy04LjQ3OTA2LDAuNTc3ODEgLTE4LjM5NTk0LDUuOTkzMTMgLTI0LjE4NzUsMTMuMDA3NWMtNS4yNTQwNiw2LjM5NjI1IC05LjYwNzgxLDE1Ljg4MzEzIC03LjkxNDY5LDI1LjA2MDk0YzkuMjU4NDQsMC4yOTU2MyAxOC44MzkzNywtNS4yMjcxOSAyNC4zODkwNiwtMTIuMzc1OTR6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" />
                     <span class="d-inline-block text-left">
                       <small class="font-weight-light d-block">Get it on</small>
                       iOS
@@ -71,7 +74,8 @@
                 </div>
                 <div class="col my-1">
                   <a href="https://my.tabletime.app">
-                    <button class="download-button btn btn-outline-light btn-icon-text d-flex justify-content-center align-items-center">
+                    <button
+                      class="download-button btn btn-outline-light btn-icon-text d-flex justify-content-center align-items-center">
                       <img class="me-2 web-app-img" src="/img/tabletime-logo-clear.png" />
                       <span class="d-inline-block text-left">
                         <small class="font-weight-light d-block">Use now on</small>
@@ -86,7 +90,8 @@
         </div>
       </div>
       <div class="col-sm p-4 d-flex justify-content-center">
-        <img class="phone-image animate__animated animate__fadeInRight animate__delay-1s" src="/img/phone.png" alt="phone" />
+        <img class="phone-image animate__animated animate__fadeInRight animate__delay-1s" src="/img/phone.png"
+          alt="phone" />
       </div>
     </div>
   </div>
@@ -109,7 +114,10 @@
         <div class="feature col-md-4">
           <div class="container">
             <div class="feature-icon bg-primary bg-gradient">
-              <svg class="bi" width="1em" height="1em" viewBox="0 0 24 24"><path d="M8.566 17.842c-.945 2.462-3.678 4.012-6.563 4.161.139-2.772 1.684-5.608 4.209-6.563l.51.521c-1.534 1.523-2.061 2.765-2.144 3.461.704-.085 2.006-.608 3.483-2.096l.505.516zm-1.136-11.342c-1.778-.01-4.062.911-5.766 2.614-.65.649-1.222 1.408-1.664 2.258 1.538-1.163 3.228-1.485 5.147-.408.566-1.494 1.32-3.014 2.283-4.464zm5.204 17.5c.852-.44 1.61-1.013 2.261-1.664 1.708-1.706 2.622-4.001 2.604-5.782-1.575 1.03-3.125 1.772-4.466 2.296 1.077 1.92.764 3.614-.399 5.15zm11.312-23.956c-.428-.03-.848-.044-1.261-.044-9.338 0-14.465 7.426-16.101 13.009l4.428 4.428c5.78-1.855 12.988-6.777 12.988-15.993v-.059c-.002-.437-.019-.884-.054-1.341zm-5.946 7.956c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z"/></svg>
+              <svg class="bi" width="1em" height="1em" viewBox="0 0 24 24">
+                <path
+                  d="M8.566 17.842c-.945 2.462-3.678 4.012-6.563 4.161.139-2.772 1.684-5.608 4.209-6.563l.51.521c-1.534 1.523-2.061 2.765-2.144 3.461.704-.085 2.006-.608 3.483-2.096l.505.516zm-1.136-11.342c-1.778-.01-4.062.911-5.766 2.614-.65.649-1.222 1.408-1.664 2.258 1.538-1.163 3.228-1.485 5.147-.408.566-1.494 1.32-3.014 2.283-4.464zm5.204 17.5c.852-.44 1.61-1.013 2.261-1.664 1.708-1.706 2.622-4.001 2.604-5.782-1.575 1.03-3.125 1.772-4.466 2.296 1.077 1.92.764 3.614-.399 5.15zm11.312-23.956c-.428-.03-.848-.044-1.261-.044-9.338 0-14.465 7.426-16.101 13.009l4.428 4.428c5.78-1.855 12.988-6.777 12.988-15.993v-.059c-.002-.437-.019-.884-.054-1.341zm-5.946 7.956c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z" />
+              </svg>
             </div>
             <h2 class="feature-title">Simple and Painless Setup</h2>
             <p class="feature-subtitle">With drag and drop setup it couldn't be quicker to get started</p>
@@ -118,7 +126,10 @@
         <div class="feature col-md-4">
           <div class="container">
             <div class="feature-icon bg-primary bg-gradient">
-              <svg class="bi" width="1em" height="1em" viewBox="0 0 24 24"><path d="M12 5c3.453 0 5.891 2.797 5.567 6.78 1.745-.046 4.433.751 4.433 3.72 0 1.93-1.57 3.5-3.5 3.5h-13c-1.93 0-3.5-1.57-3.5-3.5 0-2.797 2.479-3.833 4.433-3.72-.167-4.218 2.208-6.78 5.567-6.78zm0-2c-4.006 0-7.267 3.141-7.479 7.092-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h13c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408-.212-3.951-3.473-7.092-7.479-7.092zm-1.25 10.75l-1.859 2.07-1.891-2.07h1.25c0-2.071 1.68-3.75 3.75-3.75.997 0 1.903.393 2.574 1.028l-.835.93c-.45-.438-1.064-.708-1.739-.708-1.378 0-2.5 1.121-2.5 2.5h1.25zm4.359-2.07l-1.859 2.07h1.25c0 1.379-1.122 2.5-2.5 2.5-.676 0-1.289-.271-1.739-.708l-.835.93c.671.635 1.577 1.028 2.574 1.028 2.07 0 3.75-1.679 3.75-3.75h1.25l-1.891-2.07z"/></svg>
+              <svg class="bi" width="1em" height="1em" viewBox="0 0 24 24">
+                <path
+                  d="M12 5c3.453 0 5.891 2.797 5.567 6.78 1.745-.046 4.433.751 4.433 3.72 0 1.93-1.57 3.5-3.5 3.5h-13c-1.93 0-3.5-1.57-3.5-3.5 0-2.797 2.479-3.833 4.433-3.72-.167-4.218 2.208-6.78 5.567-6.78zm0-2c-4.006 0-7.267 3.141-7.479 7.092-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h13c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408-.212-3.951-3.473-7.092-7.479-7.092zm-1.25 10.75l-1.859 2.07-1.891-2.07h1.25c0-2.071 1.68-3.75 3.75-3.75.997 0 1.903.393 2.574 1.028l-.835.93c-.45-.438-1.064-.708-1.739-.708-1.378 0-2.5 1.121-2.5 2.5h1.25zm4.359-2.07l-1.859 2.07h1.25c0 1.379-1.122 2.5-2.5 2.5-.676 0-1.289-.271-1.739-.708l-.835.93c.671.635 1.577 1.028 2.574 1.028 2.07 0 3.75-1.679 3.75-3.75h1.25l-1.891-2.07z" />
+              </svg>
             </div>
             <h2 class="feature-title">Cloud Sync</h2>
             <p class="feature-subtitle">Your data is synced with the cloud and updates on all your devices</p>
@@ -128,14 +139,88 @@
     </div>
   </div>
 
+  <div class="open-source-container container-fluid">
+    <div class="row">
+      <div class="col-md">
+        <div class="container d-flex justify-content-center">
+          <svg class="version-control-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="321px"
+            height="958px" viewBox="-0.5 -0.5 321 958">
+            <defs>
+              <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="mx-gradient-0072ff-1-00c6ff-1-e-0">
+                <stop offset="0%" style="stop-color:#0072ff" />
+                <stop offset="100%" style="stop-color:#00c6ff" />
+              </linearGradient>
+              <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="mx-gradient-009900-1-36db3c-1-e-0">
+                <stop offset="0%" style="stop-color:#009900" />
+                <stop offset="100%" style="stop-color:#36DB3C" />
+              </linearGradient>
+              <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="mx-gradient-cc0000-1-ff0000-1-e-0">
+                <stop offset="0%" style="stop-color:#CC0000" />
+                <stop offset="100%" style="stop-color:#FF0000" />
+              </linearGradient>
+            </defs>
+            <g>
+              <path d="M 160 818 L 160 698" fill="none" stroke="#999999" stroke-width="4" stroke-miterlimit="10"
+                pointer-events="stroke" />
+              <ellipse cx="160" cy="658" rx="40" ry="40" fill="url(#mx-gradient-0072ff-1-00c6ff-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <ellipse cx="160" cy="538" rx="40" ry="40" fill="url(#mx-gradient-0072ff-1-00c6ff-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <path d="M 159.76 618 L 159.79 608 Q 159.82 598 159.91 588 L 160 578" fill="none" stroke="#999999"
+                stroke-width="4" stroke-miterlimit="10" pointer-events="stroke" />
+              <path d="M 160 818 Q 160 778 100 758 Q 40 738 40 698" fill="none" stroke="#999999" stroke-width="4"
+                stroke-miterlimit="10" pointer-events="stroke" />
+              <ellipse cx="40" cy="658" rx="40" ry="40" fill="url(#mx-gradient-009900-1-36db3c-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <ellipse cx="160" cy="858" rx="40" ry="40" fill="url(#mx-gradient-0072ff-1-00c6ff-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <ellipse cx="40" cy="538" rx="40" ry="40" fill="url(#mx-gradient-009900-1-36db3c-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <path d="M 39.83 618 L 39.83 608 Q 39.82 598 39.91 588 L 40 578" fill="none" stroke="#999999"
+                stroke-width="4" stroke-miterlimit="10" pointer-events="stroke" />
+              <ellipse cx="160" cy="338" rx="40" ry="40" fill="url(#mx-gradient-0072ff-1-00c6ff-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <path d="M 160 498 L 160 378" fill="none" stroke="#999999" stroke-width="4" stroke-miterlimit="10"
+                pointer-events="stroke" />
+              <ellipse cx="280" cy="338" rx="40" ry="40" fill="url(#mx-gradient-cc0000-1-ff0000-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <ellipse cx="280" cy="218" rx="40" ry="40" fill="url(#mx-gradient-cc0000-1-ff0000-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <ellipse cx="280" cy="98" rx="40" ry="40" fill="url(#mx-gradient-cc0000-1-ff0000-1-e-0)" stroke="none"
+                pointer-events="all" />
+              <path d="M 160 498 Q 160 458 220 438 Q 280 418 280 378" fill="none" stroke="#999999" stroke-width="4"
+                stroke-miterlimit="10" pointer-events="stroke" />
+              <path d="M 280 298 L 280 258" fill="none" stroke="#999999" stroke-width="4" stroke-miterlimit="10"
+                pointer-events="stroke" />
+              <path d="M 280 178 L 280 138" fill="none" stroke="#999999" stroke-width="4" stroke-miterlimit="10"
+                pointer-events="stroke" />
+              <path d="M 160 954 L 160.03 946 Q 160.06 938 159.98 928 L 159.76 898" fill="none" stroke="#999999"
+                stroke-width="4" stroke-miterlimit="10" pointer-events="stroke" />
+              <path d="M 280.1 58 L 280.08 50 Q 280.06 42 280.01 32 L 279.86 2" fill="none" stroke="#999999"
+                stroke-width="4" stroke-miterlimit="10" pointer-events="stroke" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="col-md d-flex flex-column justify-content-around align-items-center">
+        <div class="page-content page-container" id="page-content">
+          <h1 class="title-text">Open Source</h1>
+          <h4 class="subtitle-text">
+            Tabletime is open source software developed on 
+            <a class="inline-link subtitle-text" href="https://github.com/joshlucpoll/tabletime">Github</a>.
+            It used Flutter for the UI and Firebase for all the backend.
+            Anyone can suggest features or report bugs via the <a class="inline-link subtitle-text" href="https://github.com/joshlucpoll/tabletime/issues">issues tab</a>.
+            Or contribute to the development with a <a class="inline-link subtitle-text" href="https://github.com/joshlucpoll/tabletime/pulls">pull request</a>.
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <div class="credit">
     Made by
-    <a
-      href="https://joshlucpoll.com"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="https://joshlucpoll.com" target="_blank" rel="noopener noreferrer">
       Joshlucpoll
     </a>
   </div>

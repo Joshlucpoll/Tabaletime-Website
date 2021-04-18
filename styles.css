@@ -28,6 +28,14 @@ a {
   text-decoration: none;
 }
 
+.inline-link {
+  text-decoration: underline;
+}
+
+.inline-link:hover {
+  color: #fff;
+}
+
 .navbar {
   padding: 20px;
   backdrop-filter: blur(15px) saturate(200%);
@@ -88,6 +96,7 @@ a {
 
 .subtitle-text {
   font-weight: 500;
+  color: white;
   line-height: 2.5rem;
   opacity: 0.5;
 }
@@ -500,6 +509,25 @@ textarea.input100 {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .version-control-image {
+    max-height: 50vh;
+  }
+}
+
+.open-source-container {
+  max-width: 1200px;
+}
+
+.version-control-image {
+  opacity: 0.6;
+  transition: opacity 500ms ease;
+}
+
+.version-control-image:hover {
+  opacity: 1;
+}
+
 .credit {
   background-color: #181A1B;
   color: rgba(256, 256, 256, 0.4);
@@ -536,7 +564,9 @@ textarea.input100 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: yellow;
+  background: #00c6ff;
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+  background: linear-gradient(to right, #0072ff, #00c6ff);
   visibility: hidden;
   transform: scaleX(0);
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -544,7 +574,11 @@ textarea.input100 {
 }
 
 .credit a:hover {
-  color: yellow;
+  background: #00c6ff;
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .credit a:hover::before {
