@@ -38,7 +38,8 @@ a {
 
 .navbar {
   padding: 20px;
-  backdrop-filter: blur(15px) saturate(200%);
+  background-color: #131516bd;
+  backdrop-filter: blur(10px) saturate(200%);
   border-bottom: 0.5px solid rgba(151, 151, 151, 0.3);
 }
 
