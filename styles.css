@@ -534,6 +534,11 @@ textarea.input100 {
   max-width: 1200px;
 }
 
+.android-container {
+  padding-top: 10rem;
+  max-width: 1200px;
+}
+
 .iphone {
   max-height: 60vh;
 }
